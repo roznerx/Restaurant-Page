@@ -1,0 +1,102 @@
+/* BumbleBit PaletteCreated by Snowy Owl 
+palette-blue: #272946;
+palette-yellow: #eda031;
+palette-white: #e7ffee;
+*/
+
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+
+body {
+    background-color: #eda031;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header {
+    order: 1;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 180px; 
+    background-color:#eda031;
+    border-bottom: 5px solid #272946;
+}
+
+.banner-img {
+    width: 512px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#bar {
+    margin-left: 50px;
+    border: 3px solid #272946;
+}
+
+#bar2 {
+    margin-left: 68px;
+    border: 3px solid #272946;
+}
+
+#headerButtons {
+    margin-left: 65px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 60px;
+}
+
+.headerButton {
+    size: 50px;
+    background-color: #eda031;
+    color: #272946;
+    border: 3px solid #272946;
+    font-size: 35px;
+}
+
+.headerButton:hover {
+    cursor: pointer;
+}
+
+.page {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 500px;
+}
+
+.column {
+    width: 500px;
+    height: 730px;
+}
+
+#background-image {
+    width: 1583px ;
+    height: 760px;
+    overflow: hidden;
+}
+
+#center-column {
+    margin-left: 64px;
+    width: 600px;
+    height: 730px;
+    background-color: #e7ffee;
+    border: 6px solid #272946;
+}
