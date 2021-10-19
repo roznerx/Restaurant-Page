@@ -1,4 +1,3 @@
-
 let entradasTitle = document.createElement("h4");
 entradasTitle.className = "menu-titles";
 entradasTitle.id = "entradas-title";
@@ -29,11 +28,5 @@ let postresContent = document.createElement("h2");
 postresContent.id = "postres-content";
 postresContent.innerHTML = `
 Tiramisú<br />Queso y Dulce<br />Flan Casero (con crema y dulce de leche)`;
-
-/*
-let contentSignature = document.createElement("h3");
-contentSignature.id = "signature";
-contentSignature.innerHTML = "Sandra";
-*/
 
 export { entradasTitle, entradasContent, platosPrincipalesTitle, platosPrincipalesContent, postresTitle, postresContent };
