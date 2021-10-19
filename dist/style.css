@@ -173,9 +173,41 @@ a:hover {
 
 #signature {
     text-align: center;
-    margin-top: -5px;
+    margin-top: 5px;
     margin-left: -20px;
     color: #272946;
     font-family: "hello_bride_scriptregular";
     font-size: 45px;
+}
+
+.menu-titles {
+    margin-left: 50px;
+    margin-top: 5px;
+    color: #272946;
+    font-family: "hello_bride_scriptregular";
+    font-size: 40px;
+}
+
+#entradas-content {
+    margin-left: 50px;
+    margin-top: -60px;
+    color: #272946;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#platos-principales-content {
+    margin-left: 50px;
+    margin-top: -60px;
+    color: #272946;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#postres-content {
+    margin-left: 50px;
+    margin-top: -60px;
+    color: #272946;
+    font-size: 15px;
+    line-height: 20px;
 }

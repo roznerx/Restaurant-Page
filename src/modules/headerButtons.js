@@ -7,8 +7,10 @@ function buttonMaker(id) {
 
 let button1 = buttonMaker("Home");
 button1.innerHTML = "Inicio";
+
 let button2 = buttonMaker("Menu");
 button2.innerHTML = "Menú";
+
 let button3 = buttonMaker("Contact");
 button3.innerHTML = "Contacto";
 
